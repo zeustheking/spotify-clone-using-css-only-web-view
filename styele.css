@@ -1,0 +1,92 @@
+.chotadiv{
+    display: flex;
+    height: 2rem;
+}
+
+.chotadiv h3{
+    color: white;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.chotadiv p{
+    font-size: 1rem;
+    color: grey;
+    margin-left: 26rem;
+}
+
+.new-music{
+    display: flex;
+    height: 16rem;
+    justify-content: space-evenly;
+}
+
+.new-music div{
+    margin-top: .50rem;
+    margin-left: .25rem;
+    background: green;
+    height: 9rem;
+    width: 9rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-music div img{
+    border-radius: 1rem;
+}
+
+.new-music div p{
+    font-size: .80rem;
+    font-weight: 400;
+    color: gray;
+}
+
+.new-music .m{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.chota-div{
+    display: flex;
+    height: 2rem;
+    width: 100%;
+
+}
+
+.chota-div h3{
+    color: white;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.chota-div p{
+    font-size: 1rem;
+    color: gray;
+    margin-left: 30rem;
+}
+
+.chota-div3 h3{
+    color: white;
+    margin-left: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+#made{
+    font-size: 1rem;
+    color: white;
+    margin-left: 1rem;
+    opacity: 50%;
+
+}
+
+#pm{
+    font-size: 1rem;
+    color: gray;
+    margin-left: 43rem;
+
+}

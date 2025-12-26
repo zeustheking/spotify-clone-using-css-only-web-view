@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player:Music for everyone</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="styele.css">
+<link rel="stylesheet" href="hover.css">
+<link rel="stylesheet" href="div-artist.css">
+</head>
+<body>
+    <div class="main">
+        <!-- thi is top bar top div -->
+        <div class="topnav">
+            <div class="sp-logo">
+                <img src="./assets/Spotify_Primary_Logo_RGB_White.png" alt="spotify-logo-bnw">
+            </div>
+
+            <div class="home">
+                <i class="fa-regular fa-house fa-2x" id="home-logo"></i>
+                <i class="fa-solid fa-magnifying-glass fa-2x" id="search-logo"></i>
+                <input type="text" id="search" placeholder="What do you want to play?">
+                <div id="i"><h5>|</h5></div>
+                <i class="fa-solid fa-window-restore fa-2x" id="brows"></i>
+            </div>
+            <div class="install">
+                <i class="fa-solid fa-download" id="download-icon"></i>
+                <p>install app</p>
+                <i class="fa-regular fa-bell" id="bell"></i>
+                <i class="fa-solid fa-user-group" id="group"></i>
+                <img src="./assets/images.jpeg" alt="spiderman" id="spiderman">
+            </div>
+    
+        </div>
+
+        <div class="sidebar">
+            <div class="library">
+                <h2>Your Library</h2>
+                <i class="fa-solid fa-plus" id="plus-icon"></i>
+                <i class="fa-solid fa-up-right-and-down-left-from-center" id="expand-icon"></i>
+            </div>
+            <div class="artist">
+                <button type="button" class="btn btn-secondary btn-sm">Playlists</button>
+                <button type="button" class="btn btn-secondary btn-sm">Artists</button>
+                <button type="button" class="btn btn-secondary btn-sm">Albums</button>
+            </div>
+            <div class="search-side">
+                <i class="fa-solid fa-magnifying-glass" id="search-logo-side"></i>
+                <p>Recents<i class="fa-solid fa-signal"></i></p>
+                
+            </div>
+            <div class="artist-photo-name">
+                <div class="recent-pics">
+                <img src="./assets/old is gold.jpeg" alt="old is gold">
+                <img src="./assets/talwiinder.jpeg" alt="talwiinder">
+                <img src="./assets/talwinder2.jpeg" alt="talwinder2">
+                <img src="./assets/karan.jpeg" alt="karan aujla">
+                <img src="./assets/sahir.jpeg" alt="sahir ludhianvi">
+                <img src="./assets/bohemia.jpeg" alt="bohemia">
+                <img src="./assets/gulam.jpeg" alt="gulam ali">
+            </div>
+            <div class="artist-name">
+                <h6>Old is gold <p> <i class="fa-solid fa-thumbtack"></i>Playlist &dot;Ragner</p></h6>
+                <h6>Talwiinder <p>Artist</p> </h6>
+                <h6>Talwiinder Mix <p>Playlist &dot;Spotify</p></h6>
+                <h6>Karan Aujla<p>Artist</p></h6>
+                <h6>Sahir Ludhianvi <p>Artist</p></h6>
+                <h6>Bohemia<p>Artist</p></h6>
+                <h6>Ghulam Ali<p>Artist</p></h6>
+         </div>
+            </div>
+            
+        </div>
+
+
+
+        <!-- this is main container the middleone -->
+        
+        <div class="main-content">
+            <div class="top-main-container">
+                <div class="all-music-podcast">
+                    <div class="btn-a-m-p">
+                        <button type="button" class="btn btn-white btn-sm" id="btn-all">All</button>
+                        <button type="button" class="btn btn-secondary btn-sm">Music</button>
+                        <button type="button" class="btn btn-secondary btn-sm">Podcast</button>
+                    </div>
+                </div>
+                <div class="top-main-artist">
+                    <div class="div-artist">
+                        <img src="./assets/talwiinder.jpeg" alt="tal">
+                        <p>Talwiinder</p>
+                        <img src="./assets/green11.png" alt="gre" class="img-play">
+                    </div>
+                    <div class="div-artist">
+                        <img src="./assets/gulam.jpeg" alt="ghulamali">
+                        <p>Ghulam Ali</p>
+                        <img src="./assets/green11.png" alt="gre" class="img-play">
+                    </div>
+
+                    <div class="div-artist">
+                        <img src="./assets/sidhu.jpeg" alt="sidhu">
+                        <p>Sidhu Moose Wala</p>
+                        <img src="./assets/green11.png" alt="gre" class="img-play">
+                    </div>
+                    <div class="div-artist">
+                        <img src="./assets/bengali.jpeg" alt="bengali">
+                        <p>Mix Playlist</p>
+                        <img src="./assets/green11.png" alt="gre" class="img-play">
+                    </div>
+                    
+                </div>
+
+                <div class="top-main-artist2">
+
+                    <div class="div-artist">
+                        <img src="./assets/kishore.jpeg" alt="kishorekumar4">
+                        <p>Kishore Kumar</p>
+                        <img src="./assets/green11.png" alt="gre" class="img-play">
+                    </div>
+
+                    <div class="div-artist">
+                        <img src="./assets/thousand.jpeg" alt="thusand">
+                        <p>Thousand Thoughts</p>
+                        <img src="./assets/green11.png" alt="gre" class="img-play">
+                    </div>
+                    <div class="div-artist">
+                        <img src="./assets/tum.jpeg" alt="tum">
+                        <p>Tum Sa Nahin Dekha</p>
+                        <img src="./assets/green11.png" alt="gre" class="img-play">
+                    </div>
+                    <div class="div-artist">
+                        <img src="./assets/nasha.jpeg" alt="nasha">
+                        <p>Nasha</p>
+                        <img src="./assets/green11.png" alt="gre" class="img-play">
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="chotadiv">
+                <h3>It's New Music Friday!</h3>
+                 <p>Show all</p>
+            </div>
+
+            <div class="new-music">
+                <div><img src="./assets/new.jpeg" alt="new">
+                <p>new music from kali uchi,Ar rehman</p></div>
+                <div><img src="./assets/hindi.jpeg" alt="hindi">
+                <p>fresh from the recording to your era</p></div>
+                <div><img src="./assets/releas.jpeg" alt="releas">
+                <p>cath all the latest music</p></div>
+                <div><img src="./assets/dance.jpeg" alt="dance">
+                <p>Love,beats and lot of swag</p></div>
+                <div><img src="./assets/latest.jpeg" alt="latest">
+                <p>Because Love is a mood</p></div>
+            </div>
+
+
+
+            <div class="chota-div">
+                <h3>Recently played</h3>
+                 <p>Show all</p>
+            </div>
+
+            <div class="new-music">
+                <div><img src="./assets/sonu.jpeg" alt="mausam">
+                <p class="m">Mausam</p></div>
+                <div><img src="./assets/80.jpeg" alt="80">
+                <p class="m">80's Hit</p></div>
+                <div><img src="./assets/raaz.jpeg" alt="raaz">
+                <p class="m">Raaz</p></div>
+                <div><img src="./assets/rap.jpeg" alt="91">
+                <p class="m">Rap 91</p></div>
+                <div><img src="./assets/vinod.jpeg" alt="vinod">
+                <p class="m">Vinod Rathor</p></div>
+            </div>
+
+
+
+            <div class="chota-div3">
+                <p id="made">Made For</p>
+                <h3>Ragner</h3>
+                 <p id="pm">Show all</p>
+            </div>
+
+            <div class="new-music">
+                <div><img src="./assets/dl1.jpeg" alt="dl1">
+                <p class="m">The Weknd</p></div>
+                <div><img src="./assets/dl2.jpeg" alt="dl2">
+                <p class="m">Ariana Grande</p></div>
+                <div><img src="./assets/dl3.jpeg" alt="dl3">
+                <p class="m">Eminem</p></div>
+                <div><img src="./assets/dl4.jpeg" alt="dl4">
+                <p class="m">Drake</p></div>
+                <div><img src="./assets/dl5.jpeg" alt="dl5">
+                <p class="m">Kendik Lamar</p></div>
+            </div>
+
+
+
+
+
+        </div>
+        
+
+
+
+
+        <!-- this is the bottom div music player -->
+        <div class="music-player">
+            <!-- this is player icons -->
+            <div class="player1">
+                <img src="./assets/dilan dewich.jpg" alt="smallone">
+                <div class="artist-title-song">
+                    <p id="title-song">Dillan De Wich</p>
+                    <p id="title-artist">Talwiinder,Push Kahlon</p>
+                    <i class="fa-solid fa-plus" id="title-add"></i>
+                </div>
+            </div>
+
+            <div class="main-player">
+                <div class="play-pause">
+                    <!--thi is for backfor icons-->
+                    <div class="icon-backward">
+                        <i class="fa-solid fa-shuffle" class="icon-play"></i>
+                        <i class="fa-solid fa-backward-step" class="icon-play"></i>
+                    </div>
+                    <!--this one is for play pause button middle one-->
+                    <img src="./assets/play_musicbar.png" alt="player-btn-pause">
+                    <!--thi is for forward icons-->
+                    <div class="icon-forward">
+                        <i class="fa-solid fa-forward-step"></i>
+                        <i class="fa-solid fa-repeat"></i>
+                    </div>
+                </div>
+                <!--this is the belove div of bar music bar-->
+                <div class="play-pause-bar">
+                    <span>00:00</span>
+                    <input type="range" class="main-bar-music" step="1">
+                    <span>3:29</span>
+                </div>
+            </div>
+
+
+            <div class="player-box">
+                <img src="./assets/mic.png" alt="lyrics">
+                <img src="./assets/queue.png" alt="q">
+                <img src="./assets/box.png" alt="box-speaker">
+                <img src="./assets/mic.png" alt="mic">
+                <input type="range" class="mc-bar" step="1">
+                <img src="./assets/cast.png" alt="cast">
+                <img src="./assets/full-screen.png" alt="f-screen">
+            </div>
+    
+        </div>        
+        <!-- this is the side bar 2 (right side) -->
+        <div class="sidebar2">
+            <div class="top-side2">
+                <p>Talwiinder</p>
+                <img src="./assets/dilan dewich.jpg" alt="talwinder dilan de wich">
+            </div>
+            <div class="name-share">
+                <p id="songname">Dillan de wich</p>
+                <i class="fa-solid fa-share fa-2x" id="share-btn"></i>
+                <i class="fa-solid fa-plus fa-2x" id="add-btn"></i>
+            </div>
+            <div class="rel-music">
+                <p>Realted music video</p>
+            </div>
+            <div class="videos">
+        
+                <!-- for the video muted in loop side bar 2 -->
+                <video src="./assets/v1.mp4" autoplay muted playsinline loop width="50%"></video>
+                <video src="./assets/v3.mp4" autoplay muted playsinline loop width="50%"></video>
+            </div>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>

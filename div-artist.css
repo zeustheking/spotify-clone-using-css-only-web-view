@@ -1,0 +1,43 @@
+.div-artist{
+    display: flex;
+    background: rgb(49, 48, 48);
+    height: 4.5rem;
+    margin-top: 1rem;
+    margin-left: .50rem;
+    border-radius: .50rem;
+    margin-right: .50rem;
+    width: 13rem;
+    cursor: pointer;
+}
+
+.div-artist:hover{
+    background: black;
+    opacity: 100%;
+}
+
+.div-artist img{
+    border-radius: .50rem;
+    height: 4.5rem;
+
+}
+
+.div-artist .img-play{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 1rem;
+    opacity: 0%;
+    margin-right: .30rem;
+}
+
+.img-play:hover{
+    opacity: 100%;
+}
+
+.div-artist p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: .15rem;
+    margin-left: .50rem;
+    overflow: hidden;
+}

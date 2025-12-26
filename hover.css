@@ -1,0 +1,21 @@
+.mc-bar{
+    appearance: none;
+    height: .20rem;
+    margin-top: 2rem;
+    width: 6rem;
+    background: rgb(236, 230, 230);
+    cursor: pointer;
+}
+
+.mc-bar::-webkit-slider-thumb{
+    height: .50rem;
+    width: .50rem;
+    border-radius: 50%;
+    background: green;
+    appearance: none;
+}
+
+.tal:hover{
+    cursor: pointer;
+    background-color: rgb(66, 59, 59);
+}
