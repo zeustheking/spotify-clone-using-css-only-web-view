@@ -4,3 +4,5 @@
 #cnot responsive
 #only desktop mode front page
 #connect me if any facing any problem @thelegendarybull instagram
+
+use this link as well https://zeustheking.github.io/spotify-clone-using-css-only-web-view/
